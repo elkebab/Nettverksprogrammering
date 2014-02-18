@@ -65,29 +65,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Kalkulator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+        <entry file="file://$PROJECT_DIR$/src/Oppgave1/Kalkulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="5" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1054">
+            <state line="56" column="5" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SocketKlient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SocketKlient.java">
+        <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketKlient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+            <state line="18" column="26" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SocketTjener.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SocketTjener.java">
+        <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketTjener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.4538835" vertical-offset="0" max-vertical-offset="561">
+            <state line="11" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4538835" vertical-offset="0" max-vertical-offset="561">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -95,9 +94,9 @@
         </entry>
       </file>
       <file leaf-file-name="TraadKlientHaandterer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TraadKlientHaandterer.java">
+        <entry file="file://$PROJECT_DIR$/src/Oppgave2/TraadKlientHaandterer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="867">
+            <state line="18" column="23" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="901">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/SocketKlient.java" />
         <option value="$PROJECT_DIR$/src/TraadKlientHaandterer.java" />
         <option value="$PROJECT_DIR$/src/SocketTjener.java" />
+        <option value="$PROJECT_DIR$/src/Oppgave2/SocketTjener.java" />
       </list>
     </option>
   </component>
@@ -187,6 +187,28 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oppgave2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nettverk2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nettverk2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oppgave1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -209,7 +231,7 @@
   <component name="RunManager" selected="Application.SocketKlient">
     <configuration default="false" name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Kalkulator" />
+      <option name="MAIN_CLASS_NAME" value="Oppgave1.Kalkulator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -226,7 +248,7 @@
     </configuration>
     <configuration default="false" name="SocketTjener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SocketTjener" />
+      <option name="MAIN_CLASS_NAME" value="Oppgave2.SocketTjener" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -243,7 +265,7 @@
     </configuration>
     <configuration default="false" name="SocketKlient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SocketKlient" />
+      <option name="MAIN_CLASS_NAME" value="Oppgave2.SocketKlient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -494,16 +516,16 @@
       <updated>1392736498045</updated>
       <workItem from="1392736503226" duration="127000" />
       <workItem from="1392736685710" duration="7532000" />
-      <workItem from="1392750327948" duration="1801000" />
+      <workItem from="1392750327948" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9460000" />
+    <option name="totallyTimeSpent" value="10210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,7 +546,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28664497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -554,31 +576,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave1/Kalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="5" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketKlient.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketKlient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="28" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketTjener.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketTjener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="867">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TraadKlientHaandterer.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/TraadKlientHaandterer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="5" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
           <folding>
@@ -587,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave1/Kalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
           <folding />
@@ -599,34 +620,33 @@
         <state line="235" column="18" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.3322034" vertical-offset="3408" max-vertical-offset="9129" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kalkulator.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave1/Kalkulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1054">
+        <state line="56" column="5" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TraadKlientHaandterer.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/TraadKlientHaandterer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="867">
+        <state line="18" column="23" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="413" max-vertical-offset="901">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketKlient.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketKlient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+        <state line="18" column="26" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SocketTjener.java">
+    <entry file="file://$PROJECT_DIR$/src/Oppgave2/SocketTjener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.4538835" vertical-offset="0" max-vertical-offset="561">
+        <state line="11" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4538835" vertical-offset="0" max-vertical-offset="561">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

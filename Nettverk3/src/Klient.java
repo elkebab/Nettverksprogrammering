@@ -11,6 +11,6 @@ import java.util.ArrayList;
 interface Klient extends Remote {
   String finnNavn() throws RemoteException;
   void settVindu(Vindu nyttVindu) throws RemoteException;
-  void skrivStatus(ArrayList<String> status) throws RemoteException;  // tre statuslinjer
+  void skrivStatus(ArrayList<String> status, ArrayList<String> inL) throws RemoteException;  // tre statuslinjer
 }
 

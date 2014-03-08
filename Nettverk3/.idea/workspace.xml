@@ -67,7 +67,7 @@
       <file leaf-file-name="Tjener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tjener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="14" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="5" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding>
                 <element signature="e#0#749#0" expanded="true" />
               </folding>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatKlient.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ChatKlient.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChatKlient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="629">
+            <state line="20" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="0.5590778" vertical-offset="44" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Vindu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vindu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="5" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-11.076923" vertical-offset="987" max-vertical-offset="2737">
+            <state line="121" column="0" selection-start="4099" selection-end="4099" vertical-scroll-proportion="-2.7692308" vertical-offset="1985" max-vertical-offset="2737">
               <folding>
                 <element signature="e#0#5206#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -115,7 +115,7 @@
       <file leaf-file-name="Klient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Klient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="13" column="66" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,7 +126,7 @@
       <file leaf-file-name="KlientImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KlientImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="37" column="37" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <file leaf-file-name="Chat.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
+            <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,12 +143,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ChatImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChatImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="35" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.4722222" vertical-offset="816" max-vertical-offset="1275">
+            <state line="77" column="45" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1411">
               <folding>
                 <element signature="e#973#981#0" expanded="true" />
+                <element signature="e#1039#1047#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,10 +179,10 @@
         <option value="$PROJECT_DIR$/src/ChatKlient.java" />
         <option value="$PROJECT_DIR$/src/Innlegg.java" />
         <option value="$PROJECT_DIR$/src/Chat.java" />
-        <option value="$PROJECT_DIR$/src/KlientImpl.java" />
-        <option value="$PROJECT_DIR$/src/Klient.java" />
         <option value="$PROJECT_DIR$/src/Vindu.java" />
         <option value="$PROJECT_DIR$/src/ChatImpl.java" />
+        <option value="$PROJECT_DIR$/src/Klient.java" />
+        <option value="$PROJECT_DIR$/src/KlientImpl.java" />
       </list>
     </option>
   </component>
@@ -580,12 +581,12 @@
       <changelist id="2846e781-0c4e-41ec-b91f-7b2d239a27f7" name="Default" comment="" />
       <created>1394280856551</created>
       <updated>1394280856551</updated>
-      <workItem from="1394280859793" duration="19568000" />
+      <workItem from="1394280859793" duration="21070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19568000" />
+    <option name="totallyTimeSpent" value="21070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -612,7 +613,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25407165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39250815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -656,6 +657,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Innlegg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -670,34 +680,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat.java">
+    <entry file="file://$PROJECT_DIR$/src/ChatImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
+        <state line="77" column="45" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1411">
+          <folding>
+            <element signature="e#973#981#0" expanded="true" />
+            <element signature="e#1039#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Klient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="66" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tjener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="e#0#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChatKlient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vindu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="5" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-11.076923" vertical-offset="987" max-vertical-offset="2737">
+        <state line="121" column="0" selection-start="4099" selection-end="4099" vertical-scroll-proportion="-2.7692308" vertical-offset="1985" max-vertical-offset="2737">
           <folding>
             <element signature="e#0#5206#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -705,28 +709,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Klient.java">
+    <entry file="file://$PROJECT_DIR$/src/Tjener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="5" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#749#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KlientImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="37" column="37" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChatImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/ChatKlient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="35" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.4722222" vertical-offset="816" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#973#981#0" expanded="true" />
-          </folding>
+        <state line="20" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="0.5590778" vertical-offset="44" max-vertical-offset="629">
+          <folding />
         </state>
       </provider>
     </entry>

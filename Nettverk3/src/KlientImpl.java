@@ -25,12 +25,21 @@ public class KlientImpl extends UnicastRemoteObject implements Klient {
     return navn;
   }
 
-  public synchronized void skrivStatus(ArrayList<String> inn) throws RemoteException {
+  public synchronized void skrivStatus(ArrayList<String> inn, ArrayList<String> innloggede) throws RemoteException {
     String res = "";
       for (int i = 0; i < inn.size(); i++) {
           res += inn.get(i) + "\n";
       }
     vinduet.settChat(res);
+
+      res = "";
+      for (int i = 0; i < innloggede.size(); i++) {
+          res += innloggede.get(i);
+          if (i < innloggede.size()-1) {
+              res += ", ";
+          }
+      }
+      vinduet.setInnlogget(res);
   }
 }
 

@@ -21,7 +21,7 @@ class ChatImpl extends UnicastRemoteObject implements Chat {
    * trenger � synkronisere en ArrayList.)
    */
   private ArrayList<String> innlegg = new ArrayList<String>();
-    private String innloggede;
+  private ArrayList<String> innloggede = new ArrayList<String>();
   private ArrayList<Klient> klientene = new ArrayList<Klient>();
 
   public ChatImpl() throws RemoteException {
@@ -32,6 +32,7 @@ class ChatImpl extends UnicastRemoteObject implements Chat {
     try {
       klientene.add(klienten);
       System.out.println("N� er " + klienten.finnNavn() + " registrert.");
+      innloggede.add(klienten.finnNavn());
       varsleAlle();
     } catch (Exception e) {
       System.out.println("Feil oppst�tt i registrerMeg(): " + e);
@@ -48,6 +49,13 @@ class ChatImpl extends UnicastRemoteObject implements Chat {
       if (denne.equals(klienten)) {  // bruker equals() for � sammenlikne stubbobjektene
         funnet = true;
         klientene.remove(klientIndeks);
+          for (int i = 0; i < innloggede.size(); i++) {
+              String k2 = innloggede.get(i);
+              if (denne.finnNavn().equals(k2)) {
+                  innloggede.remove(i);
+                  break;
+              }
+          }
         System.out.println("N� er klienten " + klienten.finnNavn() + " fjernet.");
         varsleAlle();
       } else klientIndeks++;
@@ -67,7 +75,7 @@ class ChatImpl extends UnicastRemoteObject implements Chat {
     while (klientIndeks < klientene.size()){
       Klient denne = klientene.get(klientIndeks);
       try {
-        denne.skrivStatus(innlegg);
+        denne.skrivStatus(innlegg, innloggede);
         klientIndeks++; // oppdaterer indeks bare dersom vi har f�tt kontakt
       } catch (ConnectException e) {  // klienten er koblet ned
         System.out.println("F�r ikke kontakt med klient med indeks " + klientIndeks + ": " + e);

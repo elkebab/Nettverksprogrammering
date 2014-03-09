@@ -134,7 +134,8 @@ class Vindu extends JFrame {
         public void actionPerformed(ActionEvent hendelse) {
             try {
                 String navn = showInputDialog(null,"Skriv navnet til brukeren du vil sende melding til:", null, 2);
-                Innlegg nyI = new Innlegg(klienten.finnNavn(), navn, innlegg.getText());
+                String innleg = showInputDialog(null,"Skriv beskjed til "+navn+":", null, 2);
+                Innlegg nyI = new Innlegg(klienten.finnNavn(), navn, innleg);
                 chat.nyPrivatMelding(nyI.toString(), navn);
             } catch (Exception e) {
                 System.out.println("Feil oppst�tt i lytteren til lagreknappen: " + e);

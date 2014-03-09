@@ -10,7 +10,7 @@ class Tjener {
 
     java.rmi.registry.LocateRegistry.createRegistry(1099);
 
-    String objektnavn = "åses_tellebyrå_AS";
+    String objektnavn = "ov3";
     System.out.println("Dette er statusvindu for tjenersiden.");
     Chat tellemaskin = new ChatImpl();
     System.out.println("N� er tellemaskinen laget.");

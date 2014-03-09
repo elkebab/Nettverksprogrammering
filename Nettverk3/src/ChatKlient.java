@@ -9,7 +9,7 @@ import static javax.swing.JOptionPane.*;
 import java.rmi.Naming;
 class ChatKlient {
   public static void main(String[] args) throws Exception {
-    String objektnavn = "åses_tellebyrå_AS";
+    String objektnavn = "ov3";
     String maskinnavn = "localhost";
     String url = "rmi://" + maskinnavn + "/" + objektnavn;
 

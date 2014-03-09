@@ -68,6 +68,12 @@ class ChatImpl extends UnicastRemoteObject implements Chat {
         varsleAlle();
     }
 
+    public synchronized void nyPrivatMelding(String i, String n) throws RemoteException {
+        System.out.println("Ny melding publisert");
+        innlegg.add(i);
+        varsleAlle();
+    }
+
   private synchronized void varsleAlle() throws RemoteException {
     System.out.println("Skal varsle alle om endringen.");
 

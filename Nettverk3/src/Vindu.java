@@ -17,6 +17,8 @@ import java.awt.event.WindowEvent;
 import java.io.NotSerializableException;
 import java.util.ArrayList;
 
+import static javax.swing.JOptionPane.showInputDialog;
+
 class Vindu extends JFrame {
     private static final int plasseringStatusvinduX = 200;
     private static final int plasseringStatusvinduY = 500;
@@ -131,7 +133,9 @@ class Vindu extends JFrame {
     private class Knappelytter2 implements ActionListener {
         public void actionPerformed(ActionEvent hendelse) {
             try {
-                //TODO
+                String navn = showInputDialog(null,"Skriv navnet til brukeren du vil sende melding til:", null, 2);
+                Innlegg nyI = new Innlegg(klienten.finnNavn(), navn, innlegg.getText());
+                chat.nyPrivatMelding(nyI.toString(), navn);
             } catch (Exception e) {
                 System.out.println("Feil oppst�tt i lytteren til lagreknappen: " + e);
                 e.printStackTrace();

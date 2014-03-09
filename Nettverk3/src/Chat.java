@@ -10,5 +10,7 @@ interface Chat extends Remote {
     void meldMegUt(Klient klienten) throws RemoteException;
 
     void nyMelding(String i) throws RemoteException;
+
+    void nyPrivatMelding(String i, String n) throws RemoteException;
 }
 

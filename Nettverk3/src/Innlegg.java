@@ -6,11 +6,23 @@ import java.rmi.server.UnicastRemoteObject;
 public class Innlegg {
     final String txt;
     final String tid;
-    final String klient;
+    final String fra;
+    final String til;
 
     public Innlegg(String k, String t) {
         txt = t;
-        klient = k;
+        fra = k;
+        til = null;
+        java.util.Date nå = new java.util.Date();
+        java.text.DateFormat tidsformat =
+                java.text.DateFormat.getTimeInstance();
+        tid = tidsformat.format(nå);
+    }
+
+    public Innlegg(String k, String til, String t) {
+        txt = t;
+        fra = k;
+        this.til = til;
         java.util.Date nå = new java.util.Date();
         java.text.DateFormat tidsformat =
                 java.text.DateFormat.getTimeInstance();
@@ -26,10 +38,14 @@ public class Innlegg {
     }
 
     public String getKlient() {
-        return klient;
+        return fra;
+    }
+
+    public String getTilKlient() {
+        return til;
     }
 
     public String toString() {
-        return klient + "("+tid+"): "+txt;
+        return fra + "("+tid+"): "+txt;
     }
 }

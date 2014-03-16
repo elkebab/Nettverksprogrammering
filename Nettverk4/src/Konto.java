@@ -16,10 +16,11 @@ public class Konto implements Serializable {
     public Konto() {
     }
 
-    public Konto(String knr, double s, String n) {
+    public Konto(String knr, double s, String n, int lfelt) {
         kontonr = knr;
         saldo = s;
         navn = n;
+        laasingsFelt = lfelt;
     }
 
     public String getKontonr() {

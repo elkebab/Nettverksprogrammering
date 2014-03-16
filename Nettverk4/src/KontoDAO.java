@@ -51,42 +51,6 @@ public class KontoDAO{
         }
     }
 
-    //Finner en bok basert på primærtnøkkel
-    public Konto finnKonto(String kontonr){
-        EntityManager em = getEM();
-        try{
-            return em.find(Konto.class, kontonr);
-        }finally{
-            lukkEM(em);
-        }
-    }
-
-    //Endrer en eksisterenede bok, vi bruker merge for å sikre at boka
-    //føres inn i lagringskonteksten (må det om den har vært serialisert)
-    /*
-    public void endreBok(Bok bok){
-        EntityManager em = getEM();
-        try{
-            em.getTransaction().begin();
-            Bok b = em.merge(bok);//sørger for å føre entiteten inn i lagringskonteksten
-            em.getTransaction().commit();//merk at endringene gjort utenfor transaksjonen blir lagret!!!
-        }finally{
-            lukkEM(em);
-        }
-    }
-*/
-    public void slettBok(String knr){
-        EntityManager em = getEM();
-        try{
-            Konto b = finnKonto(knr);
-            em.getTransaction().begin();
-            em.remove(b);//remove må kalles i en transaksjon
-            em.getTransaction().commit();
-        }finally{
-            lukkEM(em);
-        }
-    }
-
     //sprring som henter alle bker
     public List<Konto> getAlleKontoer(){
         EntityManager em = getEM();
@@ -96,6 +60,45 @@ public class KontoDAO{
             //MERK at Bok må ha stor B (samme som klassenavn)
             return q.getResultList();
         }finally{
+            lukkEM(em);
+        }
+    }
+    
+    public Konto finnKonto(String nr){
+        EntityManager em = getEM();
+        try{
+            return em.find(Konto.class, nr);
+        }finally{
+            lukkEM(em);
+        }
+    }
+    
+    public void endreNavn(Konto k) {
+        EntityManager em = getEM();
+        try{
+            em.getTransaction().begin();
+            Konto b = em.merge(k);//sørger for å føre entiteten inn i lagringskonteksten
+            em.getTransaction().commit();//merk at endringene gjort utenfor transaksjonen blir lagret!!!
+        }finally{
+            lukkEM(em);
+        }
+    }
+    
+    public void overfør(Konto k1, Konto k2, double sum) {
+        EntityManager em = getEM();
+        try{
+            em.getTransaction().begin();
+            
+            k1.trekk(sum);
+            k2.trekk(-sum);
+            em.merge(k1);
+            em.merge(k2);
+            
+            em.getTransaction().commit();//merk at endringene gjort utenfor transaksjonen blir lagret!!!
+        } catch (IkkeDekningException e) {
+            System.out.println(e);
+        }
+        finally{
             lukkEM(em);
         }
     }

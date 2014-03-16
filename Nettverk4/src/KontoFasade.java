@@ -9,10 +9,8 @@ import java.util.List;
 
 public interface KontoFasade extends Remote{
     public void lagreNyKonto(Konto k) throws RemoteException;
-    public Bok finnBok(String isbn) throws RemoteException;
-    public void endreBok(Bok bok) throws RemoteException;
-    public void slettBok(String isbn) throws RemoteException;
-    public List<Bok> getAlleBoker() throws RemoteException;
-    public int getAntallBoker() throws RemoteException;
-    public List<Bok> getBokerForForfatter(String forfatter) throws RemoteException;
+    public List<Konto> getAlleKontoer() throws RemoteException;
+    public Konto finnKonto(String nr) throws RemoteException;
+    public void endreNavn(Konto k) throws RemoteException;
+    public void overfør(Konto k1, Konto k2, double sum) throws RemoteException;
 }

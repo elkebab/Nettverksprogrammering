@@ -13,38 +13,40 @@ public class Klient {
             List<Konto> liste;
             //lager en bok med setMetodene i bok
             
-            Konto k = new Konto();
-            k.setKontonr("123");
-            k.setSaldo(200);
-            k.setNavn("Arne");
-            k.setLaasingsFelt(0);
+            Konto k = new Konto("123",200,"Arne",0);
             fasade.lagreNyKonto(k);//lagrer boka
 
             //lager en ny bok med konstruktor i stedet for setMetodene
             k = new Konto("321", 200, "Franz", 0);//tar alle parametre Id som lages automatisk
             fasade.lagreNyKonto(k);
 
+            k = new Konto("456", 10, "Lars", 0);//tar alle parametre Id som lages automatisk
+            fasade.lagreNyKonto(k);
+            
+            double saldoGrense = 15;
             //Skriv ut bÃ¸kene som er lagret
-            System.out.println("FÃ¸lgende kontoer er lagret i DB:");
-            liste = fasade.getAlleKontoer();
+            System.out.println("FÃ¸lgende kontoer er lagret med mer enn kr "+saldoGrense);
+            liste = fasade.getAlleKontoer(saldoGrense);
             for (Konto b : liste) {
                 System.out.println(b);
             }
             
             k = (Konto)liste.get(0);
-            k.setNavn("Sivertz");
+            k.setNavn("Sivert");
             fasade.endreNavn(k);
   
             System.out.println("\nFÃ¸lgende kontoer er lagret i DB:");
-            liste = fasade.getAlleKontoer();
+            liste = fasade.getAlleKontoer(0);
             for (Konto b : liste) {
                 System.out.println(b);
             }
             
+            fasade.overfør((Konto)liste.get(0),(Konto)liste.get(1),300);
+            
             fasade.overfør((Konto)liste.get(0),(Konto)liste.get(1),150);
            
             System.out.println("\nFÃ¸lgende kontoer er lagret i DB:");
-            liste = fasade.getAlleKontoer();
+            liste = fasade.getAlleKontoer(0);
             for (Konto b : liste) {
                 System.out.println(b);
             }

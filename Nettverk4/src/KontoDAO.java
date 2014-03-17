@@ -52,14 +52,15 @@ public class KontoDAO{
     }
 
     //sprring som henter alle bker
-    public List<Konto> getAlleKontoer(){
+    public List<Konto> getAlleKontoer(double grense){
         EntityManager em = getEM();
         try{
-            Query q = em.createQuery("SELECT OBJECT(o) FROM Konto o");
+            Query q = em.createQuery("SELECT OBJECT(o) FROM Konto o WHERE o.saldo > " +grense);
             //SELECT o FROM BOK o gir samme resultat
             //MERK at Bok må ha stor B (samme som klassenavn)
             return q.getResultList();
-        }finally{
+        }
+        finally{
             lukkEM(em);
         }
     }

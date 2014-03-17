@@ -35,8 +35,8 @@ public class KontoFasadeImpl extends UnicastRemoteObject implements KontoFasade 
         return dao.finnKonto(nr);
     }
 
-    public List<Konto> getAlleKontoer() throws RemoteException {
-        return dao.getAlleKontoer();
+    public List<Konto> getAlleKontoer(double grense) throws RemoteException {
+        return dao.getAlleKontoer(grense);
     }
     
     public synchronized void overfør(Konto k1, Konto k2, double sum) throws RemoteException {

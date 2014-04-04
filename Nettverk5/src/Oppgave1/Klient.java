@@ -11,7 +11,6 @@ public class Klient {
 
         // regnestykke
         String stykke  = "-10 - -3";
-        // byte[] buf = new byte[256];
 
         // send request
         byte[] buf = stykke.getBytes();

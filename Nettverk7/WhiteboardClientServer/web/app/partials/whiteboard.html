@@ -1,0 +1,25 @@
+<h1>MSN 2.0</h1>
+<textarea id="chatVindu" rows="15" cols="60" readonly="readonly">
+</textarea>
+<br>
+<input type="text" id="name" ng-model="name" placeholder="Enter your name"/>
+<br>
+<input type="text" id="message" ng-model="msg" placeholder="Enter message"/>
+<br>
+<button ng-click="mouseClick($event)">Send</button>
+
+
+<h3> Whiteboard </h3>
+
+<div>Status: {{status}}</div><br>
+<div>Last remote painter: {{remotePainter}}</div><br>
+
+<select ng-model="color" ng-options="c.name for c in colors"></select><br>
+
+<canvas id="whiteboard" width="400" height="400" style="border:2px solid black;"
+        ng-mousemove="mouseMove($event)"
+        ng-mousedown="mouseDown($event)"
+        ng-mouseup="mouseUp($event)">
+</canvas>
+
+
